@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import mongoose from 'mongoose'
-import cheeses from './data/cheeses.json'
+import cheeses from './data/cheeses.json' assert { type: "json" }
 import expressListEndpoints from 'express-list-endpoints'
 import dotenv from 'dotenv'
 
